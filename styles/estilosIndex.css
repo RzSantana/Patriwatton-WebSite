@@ -1,9 +1,9 @@
 /* Variables ======================================================*/
 :root{
-                /* Fuentes */
+    /* Fuentes ============================= */
     --fuentePrincipal: 'Playfair Display';
 
-                /* Colores */
+    /* Colores ============================= */
     --colorBlanco: #ffffff;
 }
 
@@ -35,6 +35,10 @@
     font-size: 15px;
     letter-spacing: 0.1rem;
 }
+.linksNavbar a .primerLinkNavbar{
+    text-decoration: solid;
+    color: aqua;
+}
 
 /* Tamaño del logo de la navbar ======================================================*/
 .imgLogo{
@@ -54,32 +58,54 @@
     color: var(--colorBlanco);
     font-family: var(--fuentePrincipal);
     text-align: center;
-    padding-top: 17rem;
+    padding-top: 20vh;
+    cursor: default;
 }
-.titulo{
-    font-size: 2.5rem;
-}
-.titulo h1{
-    margin-bottom: 0%;
-    font-weight: 800;
-    font-style: normal;
-    text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.5);
-}
-.subtitulo{
-    font-size: 0.9rem;
-}
-.subtitulo h2{
-    font-weight: 600;
-    letter-spacing: 0.15rem;
-    text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.5);
-}
+
+
+    /* Titulo del encabezado =========================================== */
+    
+    .tituloEncabezado{
+        font-size: 2.5rem;
+    }
+    .tituloEncabezado h1{
+        margin-bottom: 0%;
+        font-weight: 800;
+        font-style: normal;
+        text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.5);
+    }
+
+
+    /* Subtitulo del encabezado ======================================== */
+
+    .subtituloEncabezado{
+        font-size: 0.9rem;
+    }
+    .subtituloEncabezado h2{
+        font-weight: 600;
+        letter-spacing: 0.15rem;
+        text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.5);
+    }
+
 
 /* Icono de scroll ======================================================*/
 
 .iconoScroll{
     color: var(--colorBlanco);
-    display: flex;
-    justify-content:center;
-    padding-top: 24rem;
-   
+    /* background-color: yellow; */
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
 }
+
+
+/* Contenedor de la Descripcion ============================================= */
+
+.contenedorPrincipalDescripcion{
+    margin: 5rem 6.25rem 5rem 6.25rem;
+
+}
+
+
